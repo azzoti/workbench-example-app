@@ -1,5 +1,6 @@
 import com.lihaoyi.workbench.Plugin._
 
+// see http://stackoverflow.com/questions/34404558/intellij-idea-and-sbt-syntax-error
 enablePlugins(ScalaJSPlugin)
 
 workbenchSettings
