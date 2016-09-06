@@ -18,6 +18,10 @@ without needing to refresh the page.
 Run `sbt fullOptJS` and open up `index-opt.html` for an optimized (~200kb) version
 of the final application, useful for final publication.
 
+## Tims Graph for Rachel
+
+Tim Azzopardi: Take a look at the `tims-graph-for-rachel-branch` which shows a graph
+
 ## Dodge the Dots
 
 Take a look at the `dodge-the-dots` branch in the git repository if you

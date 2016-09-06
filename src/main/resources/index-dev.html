@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Example Scala.js application</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Graph application (in Scala Js)</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body style="margin: 0px">
 
+<div id="formula">
+</div>
 <div>
     <canvas style="display: block" id="canvas" width="255" height="255"/>
 </div>
 
-<script type="text/javascript" src="../example-fastopt.js"></script>
+<script type="text/javascript" src="../graph-fastopt.js"></script>
 <script type="text/javascript" src="/workbench.js"></script>
 <script>
-    example.ScalaJSExample().main(document.getElementById('canvas'));
+    org.lazyluke.Main().main(document.getElementById('canvas'), document.getElementById('formula'));
 </script>
 </body>
 </html>
